@@ -1,3 +1,4 @@
+alert ("Haha site go brrr")
 let links = document.links;
 for (let t = 0, e = links.length; t < e; t++) links[t].hostname != window.location.hostname && (links[t].target = "_blank", links[t].rel = "noopener");
 ! function(t, e) {
