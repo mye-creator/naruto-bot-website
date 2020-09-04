@@ -25,3 +25,4 @@ $(document).ready(function(){
         $(".private-overlay-wave").addClass("active");
     });
 });
+$('body').toggleClass('loaded');
