@@ -205,6 +205,13 @@ h1 {
                 transition: all 0.3s 1s ease-out;
 }
 
+.no-js #loader-wrapper {
+    display: none;
+}
+.no-js h1 {
+    color: #222222;
+}
+
 .creator {
     font-weight: 700;
     font-size: 24px;
