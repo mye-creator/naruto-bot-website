@@ -25,4 +25,14 @@ $(document).ready(function(){
         $(".private-overlay-wave").addClass("active");
     });
 });
+
 $('body').toggleClass('loaded');
+
+$(document).ready(function() {
+ 
+    setTimeout(function(){
+        $('body').addClass('loaded');
+        $('h1').css('color','#222222');
+    }, 3000);
+ 
+});
